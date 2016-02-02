@@ -19,9 +19,9 @@ public class Main {
 
         Parser parser = new Parser();
         parser.parse();
-        System.out.println(parser.sentences);
-
-        Sentence sentence = new Sentence(words);
-        System.out.println(sentence.text);
+//        System.out.println(parser.sentences);
+//
+//        Sentence sentence = new Sentence(words);
+//        System.out.println(sentence.text);
     }
 }
