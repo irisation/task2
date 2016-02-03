@@ -19,6 +19,8 @@ public class Main {
 
         Parser parser = new Parser();
         parser.parse();
+        System.out.println(parser.countWordsInSentencesTask1());
+        System.out.println(parser.getSentencesIncreasingCountOfWordsTask2());
 //        System.out.println(parser.sentences);
 //
 //        Sentence sentence = new Sentence(words);

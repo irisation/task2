@@ -11,11 +11,15 @@ public class Word implements TextItem {
         this.text = text;
         if(text.matches("([\u2026.,!?;:()])")){
             isPunctuationMark = true;
+            System.out.print(this.text);
         }
-        else
+        else {
             isPunctuationMark = false;
-        System.out.print(this.text + " ");
+            System.out.print(" " + this.text);
+        }
+
     }
+
 
     @Override
     public boolean equals(Object o) {
