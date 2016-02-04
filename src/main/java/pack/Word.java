@@ -28,7 +28,7 @@ public class Word implements TextItem {
 
         Word word = (Word) o;
 
-        return text.equalsIgnoreCase(word.text);
+        return text.equals(word.text);
 
     }
 
